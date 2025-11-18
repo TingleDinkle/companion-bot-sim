@@ -352,6 +352,17 @@ public class BotStateManager : MonoBehaviour
             animator.SetBounce(true);
             animator.SetSpin(true);
         }
+
+        // Desktop interaction: simulate mouse prank occasionally
+        if (config != null && config.enableMousePranks && Time.time - lastStateChangeTime > 3f)
+        {
+            var interaction = FindObjectOfType<DesktopInteraction>();
+            if (interaction != null)
+            {
+                Vector2 screenPoint = new Vector2(Screen.width / 2, Screen.height / 2);
+                interaction.SimulateMousePrank(screenPoint);
+            }
+        }
     }
 
     private void HandleSleepy()
@@ -370,6 +381,16 @@ public class BotStateManager : MonoBehaviour
         {
             animator.SetSpin(true);
             animator.SetThinkingParticles(true);
+        }
+
+        // Desktop prank: move a window randomly
+        if (config != null && config.enableWindowInteractions && Time.time - lastStateChangeTime > 5f)
+        {
+            var interaction = FindObjectOfType<DesktopInteraction>();
+            if (interaction != null)
+            {
+                interaction.MoveRandomWindow(Random.Range(-100, 100), Random.Range(-100, 100));
+            }
         }
     }
 

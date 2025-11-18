@@ -47,6 +47,11 @@ public class ConfigurationManager : ScriptableObject
     public Color transparentColor = Color.black;
     public float transparencyAlpha = 0.8f;
 
+    [Header("Desktop Interactions")]
+    [Tooltip("Enable real desktop window manipulation (PRANK MODE - Use at own risk!)")]
+    public bool enableWindowInteractions = false;
+    public bool enableMousePranks = false;
+
     [Header("UI Settings")]
     public bool showMoodIndicator = true;
     public bool showActivityMeter = true;
