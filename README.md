@@ -4,4 +4,6 @@ This Unity project creates a digital robot companion with the following implemen
 
 Advanced Feature: Optional real desktop interactions (WARNING: Can manipulate actual Windows apps/windows - use at own risk! Allow in configuration settings).
 
-NOT FINISHED, HEAVY WIP.
+Setup: Open SampleScene in Unity → Drag Cozmo.fbx model into scene → attach MasterCoordinator script (auto-sets up everything!) → bake NavMesh → build for desktop. For automatic setup: Editor menu > Robot Companion > Complete Setup (requires editor script).
+
+^ this is reminder for myself. HEAVY WIP NOT DONE.
