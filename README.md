@@ -7,3 +7,7 @@ Advanced Feature: Optional real desktop interactions (WARNING: Can manipulate ac
 Setup: Open SampleScene in Unity → Drag Cozmo.fbx model into scene → attach MasterCoordinator script (auto-sets up everything!) → bake NavMesh → build for desktop. For automatic setup: Editor menu > Robot Companion > Complete Setup (requires editor script).
 
 ^ this is reminder for myself. HEAVY WIP NOT DONE.
+
+
+# UPDATE
+Sorry to dissapoint, I have a new idea for this, refactoring everything and outlining the concepts first before I do, this repo will be kept as a first draft of my next big project after Sanity Orb, stay tuned :)
