@@ -10,4 +10,6 @@ Setup: Open SampleScene in Unity → Drag Cozmo.fbx model into scene → attach 
 
 
 # UPDATE
-Sorry to dissapoint, I have a new idea for this, refactoring everything and outlining the concepts first before I do, this repo will be kept as a first draft of my next big project after Sanity Orb, stay tuned :)
+Sorry to dissapoint, I have a new idea for this, refactoring everything and outlining the concepts first before I do, this repo will be kept as a first draft of my next big project after Sanity Orb but wouldn't receive any updates, that being said, a new repo will be made public once I'm satisfied at an MVP-level.
+
+Stay tuned :)
